@@ -1,0 +1,62 @@
+.top-navigation {
+	background-color: #fff;
+	
+	width: 100%;
+	z-index: 9999;
+
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto' , sans-serif;
+	color: #838994;
+	font-size: 16px;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.introduction {
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+.introduction .content{
+	display: block;
+	width: 970px;
+	margin: 0 auto;
+	padding: 0 0.93px;
+	min-width: 37.5px;
+}
+.big-button {
+	position: center;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+}
+.cases .devices{
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    height: 4em;
+}
