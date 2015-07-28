@@ -38,25 +38,81 @@
 	height: 45.938rem;
 	overflow: auto;
 }
+.introduction h1,
+.introduction h3{
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1{
+	margin-top: 17.5rem;
+	font=font-size: 3.125rem;
+}
+.introduction h3{
+	margin-top: 1.25rem;
+	font-style: 1.563rem;
+}
 .introduction .content{
 	display: block;
 	width: 970px;
 	margin: 0 auto;
 	padding: 0 0.93px;
 	min-width: 37.5px;
-}
-.big-button {
 	position: center;
+}
+.introduction .big-button {
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
+}
+
+.big-button {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    padding: 16px 26px;
-    line-height: 1.33;
+    padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+	display: block;
+	margin:0 auto;
 }
-.cases .devices{
-    width: 33.3333333%;
-    display: inline-block;
-    /* styles to assist with debugging */
-    box-sizing: border-box;
-    height: 4em;
+.big-button:hover {
+	background-color: #d9400e;
+	border=color: #cf3d0e;
+	cursor: pointer;
+}
+.cases .content{
+	margin-top: 7.87rem;
+	padding: none;
+	color: #1d1e21;
+	text-align: center;
+}
+.cases h2{
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+	text-align: center;
+}
+.cases .devices > li {
+	width: 33.33%;
+	float: left;
+	display: inline-block;
+}
+.cases .devices h3{
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin:2.5rem 0px 1.875rem;
+}
+.cases .devices p{
+	font-weight: 300;
+	font-size: 1.313rem;
+}
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
 }
