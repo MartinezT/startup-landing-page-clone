@@ -99,6 +99,7 @@
 .cases .devices > li {
 	width: 33.33%;
 	float: left;
+	text-align: center;
 	display: inline-block;
 }
 .cases .devices h3{
@@ -112,7 +113,21 @@
 }
 .social {
     background-color: #fff;
-    overflow: auto;
     padding-bottom: 9.375rem;
     text-align: center;
+}
+.social .icons > li {
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 2px;
+	border: .5px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+.social .icons > li:hover {
+	cursor: pointer;
+}
+.social .fa fa-facebook {
+	color: #466a4;
 }
